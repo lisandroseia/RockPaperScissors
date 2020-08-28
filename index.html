@@ -3,34 +3,60 @@
 <head>
     <title>rock paper scissors</title>
     <link rel="stylesheet" href="styles.css"></link>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=PT+Serif:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="scoreboard">
-        <label for="playerscore">you
-            <p class="playerScore">
-                0
-            </p>
-        </label>
-        <label for="computerScore">cpu
-            <p class="playerScore">
-                0
-            </p>
-        </label>
-    </nav>
-        <h1 class="game">rock paper scissors!!</h1>
-        <section>
-            <header class="victory">
-                choose one!
-            </header>
-            <div class="buttonContainer">
-                <button class="rock">rock</button>
-                <button class="paper">paper</button>
-                <button class="scissors">scissors</button>
+    <header>
+        <h1>
+            Rock, paper, scissors!
+        </h1>
+        <div class="scoreboard">
+          <div class="user-label badge">user</div> 
+          <div class="comp-label badge">PC</div> 
+          <span id="user-score">0</span> :
+          <span id="comp-score">0</span>
+        </div>
+    </header>
+        <div class="result">
+            <p>lets play!!</p>
+        </div>
+        
+        <div class="options">
+            <div class="choice" id="r">
+                <span>🤛</span>
             </div>
-        </section>
-
+            <div class="choice" id="p">
+                <span>🤚</span>
+            </div>
+            <div class="choice" id="s">
+                <span>✌</span>
+            </div>
+        </div>
     
-        <script src="test.js"></script>
+    <p id="action">ready??</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,102 @@
+ *{   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+header{
+    background: red;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+font-family: 'PT Serif', serif;
+}
+header>h1{
+    font-size: 50px;
+}
+.scoreboard{
+    border: 3px solid white;
+    margin: 20px auto;
+    width: 200px;
+    color: wheat;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+.badge{
+    background-color: tomato;
+    font-size: 15px;
+    border: 2px whitesmoke;
+    border-radius: 10px;
+    padding: 3px;
+
+}
+
+.user-label{
+    position: absolute;
+    top: auto;
+    left: -25px;
+    height: 40%;
+    width: 30%;
+    font-family: 'Balsamiq Sans', cursive;
+font-family: 'PT Serif', serif;
+}
+
+.comp-label{
+    position: absolute;
+    top: auto;
+    right: -25px;
+    height: 40%;
+    width: 30%;
+    font-family: 'Balsamiq Sans', cursive;
+font-family: 'PT Serif', serif;
+}
+
+#user-score, #comp-score{
+    padding: 5px;
+    font-size: 30px;
+}
+
+.result{
+    font-size: 40px;
+    color: white;
+}
+
+.result{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'PT Serif', serif;
+}
+.options{
+    text-align: center;
+    margin: 50px 0px;
+}
+.choice{
+    font-size: 25px;
+    display: inline-block;
+    border: 4px solid white;
+    border-radius: 50%;
+    background: white;
+    padding: 15px;
+    margin: 20px;
+    transition: all 0.3s ease;
+}
+.choice:hover{
+    background-color:lightsalmon;
+    cursor: pointer;
+}
+
+#action{
+    color: white;
+text-align: center;
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'PT Serif', serif;
+font-size: 30px;
+}
+
+
